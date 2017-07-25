@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="FlyOnTheWall.Views.Audio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlyOnTheWall.Views"
+             mc:Ignorable="d">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <Button Content="Record" Height="25" Width="50" IsEnabled="False"/>
+            <Button Content="Play" Height="25" Width="50" IsEnabled="False"/>
+            <Button Content="Stop" Height="25" Width="50" IsEnabled="False"/>
+        </StackPanel>   
+    </Grid>
+</UserControl>

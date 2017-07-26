@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="FlyOnTheWall.Views.Audio"
+﻿<UserControl x:Class="FlyOnTheWall.Views.Video"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -11,8 +11,10 @@
             <RowDefinition Height="25*"/>
         </Grid.RowDefinitions>
         <DockPanel>
-            <MediaElement x:Name="AudioPlayer" DockPanel.Dock="Top" Grid.RowSpan="1" Height="108" Width="192" Opacity="0" />
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Grid.RowSpan="1" Margin="5">
+            <Border Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1" DockPanel.Dock="Top" Grid.RowSpan="1" Height="110" Width="194" HorizontalAlignment="Left">
+                <MediaElement x:Name="VideoPlayer" Height="108" Width="192" Opacity="0" />
+            </Border>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Grid.RowSpan="1" Margin="5,0">
                 <Button x:Name="btnRecord" Content="Record" Height="25" Width="50" IsEnabled="False"/>
                 <Button x:Name="btnPlay" Content="Play" Height="25" Width="50" IsEnabled="False"/>
                 <Button x:Name="btnStop" Content="Stop" Height="25" Width="50" IsEnabled="False"/>

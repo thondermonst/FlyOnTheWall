@@ -10,7 +10,14 @@
         <DockPanel>
             <local:Menu DockPanel.Dock="Top" VerticalAlignment="Top"/>
             <local:StatusBar DockPanel.Dock="Bottom" VerticalAlignment="Bottom" />
-            <local:Audio DockPanel.Dock="Left" />
+            <TabControl>
+                <TabItem Header="Audio">
+                    <local:Audio />
+                </TabItem>
+                <TabItem Header="Video">
+                    <local:Video />
+                </TabItem>
+            </TabControl>
         </DockPanel>
     </Grid>
 </Window>

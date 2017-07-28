@@ -14,7 +14,7 @@
             <MediaElement x:Name="AudioPlayer" DockPanel.Dock="Top" Grid.RowSpan="1" Height="108" Width="192" Opacity="0" />
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Grid.RowSpan="1" Margin="5">
                 <Button x:Name="btnRecord" Content="Record" Height="25" Width="50" IsEnabled="False"/>
-                <Button x:Name="btnPlay" Content="Play" Height="25" Width="50" IsEnabled="False"/>
+                <!--<Button x:Name="btnPlay" Content="Play" Height="25" Width="50" IsEnabled="False"/>-->
                 <Button x:Name="btnStop" Content="Stop" Height="25" Width="50" IsEnabled="False"/>
             </StackPanel>
         </DockPanel>
